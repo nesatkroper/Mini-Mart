@@ -1,0 +1,12 @@
+C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\bin\Debug\MiniMartSystem.exe.config
+C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\bin\Debug\MiniMartSystem.exe
+C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\bin\Debug\MiniMartSystem.pdb
+C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartSystem.csproj.AssemblyReference.cache
+C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartSystem.Lib.HomePage.resources
+C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartSystem.Properties.Resources.resources
+C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartSystem.csproj.GenerateResource.cache
+C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartSystem.csproj.CoreCompileInputs.cache
+C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartSystem.exe
+C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartSystem.pdb
+C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartSystem.Lib.Alert.AlertPageOK.resources
+C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartSystem.Lib.Product.ProductPage.resources
