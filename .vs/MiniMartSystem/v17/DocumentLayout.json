@@ -3,20 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|c:\\users\\baby bob\\desktop\\.net\\minimartsystem\\minimartsystem\\lib\\product\\productpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|solutionrelative:minimartsystem\\lib\\product\\productpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|c:\\users\\baby bob\\desktop\\.net\\minimartsystem\\minimartsystem\\lib\\product\\addstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|solutionrelative:minimartsystem\\lib\\product\\addstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|c:\\users\\baby bob\\desktop\\.net\\minimartsystem\\minimartsystem\\lib\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|c:\\users\\baby bob\\desktop\\.net\\minimartsystem\\minimartsystem\\lib\\product\\updateproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|solutionrelative:minimartsystem\\lib\\product\\updateproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|c:\\users\\baby bob\\desktop\\.net\\minimartsystem\\minimartsystem\\lib\\product\\updateproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|solutionrelative:minimartsystem\\lib\\product\\updateproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|c:\\users\\baby bob\\desktop\\.net\\minimartsystem\\minimartsystem\\lib\\product\\updateproduct.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|solutionrelative:minimartsystem\\lib\\product\\updateproduct.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\minimartsystem\\lib\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|solutionrelative:minimartsystem\\lib\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|c:\\users\\baby bob\\desktop\\.net\\minimartsystem\\minimartsystem\\lib\\product\\productdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|solutionrelative:minimartsystem\\lib\\product\\productdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\minimartsystem\\lib\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|solutionrelative:minimartsystem\\lib\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\minimartsystem\\lib\\product\\productpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|solutionrelative:minimartsystem\\lib\\product\\productpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|c:\\users\\baby bob\\desktop\\.net\\minimartsystem\\minimartsystem\\lib\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|solutionrelative:minimartsystem\\lib\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|c:\\users\\baby bob\\desktop\\.net\\minimartsystem\\minimartsystem\\lib\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|solutionrelative:minimartsystem\\lib\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\minimartsystem\\lib\\product\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|solutionrelative:minimartsystem\\lib\\product\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\minimartsystem\\lib\\product\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|solutionrelative:minimartsystem\\lib\\product\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\minimartsystem\\lib\\product\\productpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606BC33B-82AF-433F-9065-07625EDB43FA}|MiniMartSystem\\MiniMartSystem.csproj|solutionrelative:minimartsystem\\lib\\product\\productpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +58,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddStock.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\Product\\AddStock.cs",
+              "RelativeDocumentMoniker": "MiniMartSystem\\Lib\\Product\\AddStock.cs",
+              "ToolTip": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\Product\\AddStock.cs [Design]",
+              "RelativeToolTip": "MiniMartSystem\\Lib\\Product\\AddStock.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T16:50:55.275Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateProduct.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\Product\\UpdateProduct.cs",
+              "RelativeDocumentMoniker": "MiniMartSystem\\Lib\\Product\\UpdateProduct.cs",
+              "ToolTip": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\Product\\UpdateProduct.cs [Design]",
+              "RelativeToolTip": "MiniMartSystem\\Lib\\Product\\UpdateProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T16:49:08.128Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateProduct.cs",
+              "DocumentMoniker": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\Product\\UpdateProduct.cs",
+              "RelativeDocumentMoniker": "MiniMartSystem\\Lib\\Product\\UpdateProduct.cs",
+              "ToolTip": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\Product\\UpdateProduct.cs",
+              "RelativeToolTip": "MiniMartSystem\\Lib\\Product\\UpdateProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T16:48:53.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateProduct.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\Product\\UpdateProduct.Designer.cs",
+              "RelativeDocumentMoniker": "MiniMartSystem\\Lib\\Product\\UpdateProduct.Designer.cs",
+              "ToolTip": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\Product\\UpdateProduct.Designer.cs",
+              "RelativeToolTip": "MiniMartSystem\\Lib\\Product\\UpdateProduct.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T16:48:42.971Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -38,7 +120,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "ProductDetail.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\Product\\ProductDetail.cs",
+              "RelativeDocumentMoniker": "MiniMartSystem\\Lib\\Product\\ProductDetail.cs",
+              "ToolTip": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\Product\\ProductDetail.cs [Design]",
+              "RelativeToolTip": "MiniMartSystem\\Lib\\Product\\ProductDetail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T16:43:02.324Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductPage.cs",
+              "DocumentMoniker": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\Product\\ProductPage.cs",
+              "RelativeDocumentMoniker": "MiniMartSystem\\Lib\\Product\\ProductPage.cs",
+              "ToolTip": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\Product\\ProductPage.cs",
+              "RelativeToolTip": "MiniMartSystem\\Lib\\Product\\ProductPage.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T03:48:41.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddProduct.cs",
+              "DocumentMoniker": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\Product\\AddProduct.cs",
+              "RelativeDocumentMoniker": "MiniMartSystem\\Lib\\Product\\AddProduct.cs",
+              "ToolTip": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\Product\\AddProduct.cs",
+              "RelativeToolTip": "MiniMartSystem\\Lib\\Product\\AddProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T03:44:16.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddProduct.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\Product\\AddProduct.cs",
+              "RelativeDocumentMoniker": "MiniMartSystem\\Lib\\Product\\AddProduct.cs",
+              "ToolTip": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\Product\\AddProduct.cs [Design]",
+              "RelativeToolTip": "MiniMartSystem\\Lib\\Product\\AddProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T03:43:32.35Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ProductPage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\Product\\ProductPage.cs",
               "RelativeDocumentMoniker": "MiniMartSystem\\Lib\\Product\\ProductPage.cs",
@@ -50,20 +182,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "HomePage.cs",
               "DocumentMoniker": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\HomePage.cs",
               "RelativeDocumentMoniker": "MiniMartSystem\\Lib\\HomePage.cs",
               "ToolTip": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\HomePage.cs",
               "RelativeToolTip": "MiniMartSystem\\Lib\\HomePage.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAiwFQAAAAmAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAmwFEAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-22T17:23:10.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "HomePage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\HomePage.cs",
               "RelativeDocumentMoniker": "MiniMartSystem\\Lib\\HomePage.cs",
@@ -75,13 +207,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "dbConnect.cs",
               "DocumentMoniker": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\dbConnect.cs",
               "RelativeDocumentMoniker": "MiniMartSystem\\Lib\\dbConnect.cs",
               "ToolTip": "C:\\Users\\Baby Bob\\Desktop\\.Net\\MiniMartSystem\\MiniMartSystem\\Lib\\dbConnect.cs",
               "RelativeToolTip": "MiniMartSystem\\Lib\\dbConnect.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-22T14:48:51.85Z",
               "EditorCaption": ""

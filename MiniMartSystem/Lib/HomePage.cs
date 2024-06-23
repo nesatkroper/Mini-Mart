@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,6 +18,8 @@ namespace MiniMartSystem.Lib
         {
             InitializeComponent();
         }
+
+        int num = 10;
 
         void ButtonStyle(object sender, EventArgs e)
         {
@@ -37,7 +40,7 @@ namespace MiniMartSystem.Lib
 
         private void HomePage_FormClosing(object sender, FormClosingEventArgs e)
         {
-
+            
         }
 
         private void btnDash_Click(object sender, EventArgs e)
@@ -48,6 +51,7 @@ namespace MiniMartSystem.Lib
         private void btnRep_Click(object sender, EventArgs e)
         {
             ButtonStyle(btnRep, null);
+            
         }
 
         private void btnCat_Click(object sender, EventArgs e)
@@ -95,6 +99,12 @@ namespace MiniMartSystem.Lib
         private void btnSet_Click(object sender, EventArgs e)
         {
             ButtonStyle(btnSet, null);
+        }
+
+        private void tmTime_Tick(object sender, EventArgs e)
+        {
+            lbDate.Text = DateTime.Now.ToString("D");
+            lbTime.Text = DateTime.Now.ToString("T");
         }
     }
 }

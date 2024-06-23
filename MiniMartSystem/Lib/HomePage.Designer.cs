@@ -28,9 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pnSidebar = new System.Windows.Forms.Panel();
+            this.lbTime = new System.Windows.Forms.Label();
+            this.lbDate = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pnSidebar = new System.Windows.Forms.Panel();
             this.btnLog = new System.Windows.Forms.Button();
             this.btnSet = new System.Windows.Forms.Button();
             this.btnRep = new System.Windows.Forms.Button();
@@ -43,6 +46,7 @@
             this.btnPos = new System.Windows.Forms.Button();
             this.btnDash = new System.Windows.Forms.Button();
             this.pnMain = new System.Windows.Forms.Panel();
+            this.tmTime = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.pnSidebar.SuspendLayout();
             this.SuspendLayout();
@@ -50,6 +54,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(138)))), ((int)(((byte)(122)))));
+            this.panel1.Controls.Add(this.lbTime);
+            this.panel1.Controls.Add(this.lbDate);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -57,6 +63,42 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1184, 40);
             this.panel1.TabIndex = 0;
+            // 
+            // lbTime
+            // 
+            this.lbTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbTime.AutoSize = true;
+            this.lbTime.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTime.ForeColor = System.Drawing.Color.White;
+            this.lbTime.Location = new System.Drawing.Point(1066, 17);
+            this.lbTime.Name = "lbTime";
+            this.lbTime.Size = new System.Drawing.Size(49, 23);
+            this.lbTime.TabIndex = 1;
+            this.lbTime.Text = "label2";
+            // 
+            // lbDate
+            // 
+            this.lbDate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbDate.AutoSize = true;
+            this.lbDate.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbDate.ForeColor = System.Drawing.Color.White;
+            this.lbDate.Location = new System.Drawing.Point(1023, 0);
+            this.lbDate.Name = "lbDate";
+            this.lbDate.Size = new System.Drawing.Size(49, 23);
+            this.lbDate.TabIndex = 1;
+            this.lbDate.Text = "label2";
+            // 
+            // label1
+            // 
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Poppins", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1184, 40);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Mini Mart Inventory System";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pnSidebar
             // 
@@ -79,25 +121,14 @@
             this.pnSidebar.Size = new System.Drawing.Size(160, 671);
             this.pnSidebar.TabIndex = 1;
             // 
-            // label1
-            // 
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Poppins", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1184, 40);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Mini Mart Inventory System";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // btnLog
             // 
             this.btnLog.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnLog.FlatAppearance.BorderSize = 0;
             this.btnLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLog.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLog.ForeColor = System.Drawing.Color.White;
+            this.btnLog.ForeColor = System.Drawing.Color.Red;
+            this.btnLog.Image = global::MiniMartSystem.Properties.Resources.log_out_regular_24__2_;
             this.btnLog.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLog.Location = new System.Drawing.Point(0, 631);
             this.btnLog.Name = "btnLog";
@@ -304,9 +335,14 @@
             this.pnMain.Location = new System.Drawing.Point(160, 40);
             this.pnMain.Margin = new System.Windows.Forms.Padding(0);
             this.pnMain.Name = "pnMain";
-            this.pnMain.Padding = new System.Windows.Forms.Padding(5);
             this.pnMain.Size = new System.Drawing.Size(1024, 671);
             this.pnMain.TabIndex = 2;
+            // 
+            // tmTime
+            // 
+            this.tmTime.Enabled = true;
+            this.tmTime.Interval = 1000;
+            this.tmTime.Tick += new System.EventHandler(this.tmTime_Tick);
             // 
             // HomePage
             // 
@@ -319,12 +355,14 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.MinimumSize = new System.Drawing.Size(1200, 750);
             this.Name = "HomePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HomePage";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.HomePage_FormClosing);
             this.Load += new System.EventHandler(this.HomePage_Load);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.pnSidebar.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -347,5 +385,8 @@
         private System.Windows.Forms.Button btnPro;
         private System.Windows.Forms.Button btnPos;
         private System.Windows.Forms.Panel pnMain;
+        private System.Windows.Forms.Label lbDate;
+        private System.Windows.Forms.Timer tmTime;
+        private System.Windows.Forms.Label lbTime;
     }
 }

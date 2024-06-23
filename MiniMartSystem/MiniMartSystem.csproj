@@ -59,6 +59,30 @@
     <Compile Include="Lib\HomePage.Designer.cs">
       <DependentUpon>HomePage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lib\Product\AddStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Product\AddStock.Designer.cs">
+      <DependentUpon>AddStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Product\UpdateProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Product\UpdateProduct.Designer.cs">
+      <DependentUpon>UpdateProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Product\AddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Product\AddProduct.Designer.cs">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Product\ProductDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Product\ProductDetail.Designer.cs">
+      <DependentUpon>ProductDetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lib\Product\ProductPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +96,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Lib\HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lib\Product\AddStock.resx">
+      <DependentUpon>AddStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lib\Product\UpdateProduct.resx">
+      <DependentUpon>UpdateProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lib\Product\AddProduct.resx">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lib\Product\ProductDetail.resx">
+      <DependentUpon>ProductDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lib\Product\ProductPage.resx">
       <DependentUpon>ProductPage.cs</DependentUpon>
@@ -128,6 +164,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Icons\cog-regular-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out-regular-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out-regular-24 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\bookmark-alt-plus-regular-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\printer-regular-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\printer-regular-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\save-regular-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\no-entry-regular-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud-upload-regular-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud-upload-regular-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud-upload-regular-204.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

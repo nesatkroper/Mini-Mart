@@ -83,6 +83,46 @@ namespace MiniMartSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bookmark_alt_plus_regular_24 {
+            get {
+                object obj = ResourceManager.GetObject("bookmark-alt-plus-regular-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cloud_upload_regular_204 {
+            get {
+                object obj = ResourceManager.GetObject("cloud-upload-regular-204", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cloud_upload_regular_24 {
+            get {
+                object obj = ResourceManager.GetObject("cloud-upload-regular-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cloud_upload_regular_96 {
+            get {
+                object obj = ResourceManager.GetObject("cloud-upload-regular-96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cog_regular_24__1_ {
             get {
                 object obj = ResourceManager.GetObject("cog-regular-24 (1)", resourceCulture);
@@ -103,9 +143,69 @@ namespace MiniMartSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap log_out_regular_24__1_ {
+            get {
+                object obj = ResourceManager.GetObject("log-out-regular-24 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap log_out_regular_24__2_ {
+            get {
+                object obj = ResourceManager.GetObject("log-out-regular-24 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap male_female_regular_24__1_ {
             get {
                 object obj = ResourceManager.GetObject("male-female-regular-24 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap no_entry_regular_24 {
+            get {
+                object obj = ResourceManager.GetObject("no-entry-regular-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap no_entry_regular_241 {
+            get {
+                object obj = ResourceManager.GetObject("no-entry-regular-241", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap printer_regular_2 {
+            get {
+                object obj = ResourceManager.GetObject("printer-regular-2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap printer_regular_24 {
+            get {
+                object obj = ResourceManager.GetObject("printer-regular-24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,6 +226,16 @@ namespace MiniMartSystem.Properties {
         internal static System.Drawing.Bitmap receipt_regular_24 {
             get {
                 object obj = ResourceManager.GetObject("receipt-regular-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap save_regular_24 {
+            get {
+                object obj = ResourceManager.GetObject("save-regular-24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

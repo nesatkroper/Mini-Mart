@@ -10,3 +10,4 @@ C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartS
 C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartSystem.pdb
 C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartSystem.Lib.Alert.AlertPageOK.resources
 C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartSystem.Lib.Product.ProductPage.resources
+C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartSystem.Lib.Product.AddProduct.resources
