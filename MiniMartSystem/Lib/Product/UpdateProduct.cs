@@ -19,6 +19,8 @@ namespace MiniMartSystem.Lib.Product
         {
             DialogResult = DialogResult.Cancel; 
             this.Close();
+
+            //DotNunServer.AddNomalRecord("tbl_emp", "emp_name", txtName.Text);
         }
     }
 }

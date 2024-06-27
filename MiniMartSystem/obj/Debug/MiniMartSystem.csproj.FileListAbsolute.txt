@@ -11,3 +11,6 @@ C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartS
 C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartSystem.Lib.Alert.AlertPageOK.resources
 C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartSystem.Lib.Product.ProductPage.resources
 C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartSystem.Lib.Product.AddProduct.resources
+C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartSystem.Lib.Product.AddStock.resources
+C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartSystem.Lib.Product.UpdateProduct.resources
+C:\Users\Baby Bob\Desktop\.Net\MiniMartSystem\MiniMartSystem\obj\Debug\MiniMartSystem.Lib.Product.ProductDetail.resources

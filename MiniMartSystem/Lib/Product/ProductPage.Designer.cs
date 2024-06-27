@@ -150,6 +150,7 @@
             this.btnPrint.Size = new System.Drawing.Size(40, 40);
             this.btnPrint.TabIndex = 0;
             this.btnPrint.UseVisualStyleBackColor = false;
+            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
             // Column1
             // 
@@ -167,7 +168,9 @@
             // 
             // Column3
             // 
+            this.Column3.DataPropertyName = "pic";
             this.Column3.HeaderText = "Photo";
+            this.Column3.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.Column3.Name = "Column3";
             this.Column3.ReadOnly = true;
             this.Column3.Width = 60;
@@ -175,6 +178,7 @@
             // Column4
             // 
             this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column4.DataPropertyName = "pro_name";
             this.Column4.HeaderText = "Name";
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
@@ -246,6 +250,7 @@
             this.Padding = new System.Windows.Forms.Padding(5);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProductPage";
+            this.Load += new System.EventHandler(this.ProductPage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPro)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);

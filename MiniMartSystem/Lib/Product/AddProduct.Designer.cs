@@ -30,6 +30,9 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnSubmit = new System.Windows.Forms.Button();
+            this.pcbItem = new System.Windows.Forms.PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -58,9 +61,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lbName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.btnSubmit = new System.Windows.Forms.Button();
-            this.pcbItem = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbItem)).BeginInit();
@@ -115,6 +115,57 @@
             this.panel2.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.panel2.Size = new System.Drawing.Size(474, 596);
             this.panel2.TabIndex = 4;
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(130)))), ((int)(((byte)(14)))));
+            this.btnCancel.FlatAppearance.BorderSize = 0;
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.ForeColor = System.Drawing.Color.White;
+            this.btnCancel.Image = global::MiniMartSystem.Properties.Resources.no_entry_regular_24;
+            this.btnCancel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCancel.Location = new System.Drawing.Point(322, 550);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(0);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.btnCancel.Size = new System.Drawing.Size(139, 35);
+            this.btnCancel.TabIndex = 10;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // btnSubmit
+            // 
+            this.btnSubmit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(138)))), ((int)(((byte)(122)))));
+            this.btnSubmit.FlatAppearance.BorderSize = 0;
+            this.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSubmit.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmit.ForeColor = System.Drawing.Color.White;
+            this.btnSubmit.Image = global::MiniMartSystem.Properties.Resources.save_regular_24;
+            this.btnSubmit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSubmit.Location = new System.Drawing.Point(24, 550);
+            this.btnSubmit.Margin = new System.Windows.Forms.Padding(0);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.btnSubmit.Size = new System.Drawing.Size(139, 35);
+            this.btnSubmit.TabIndex = 9;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSubmit.UseVisualStyleBackColor = false;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
+            // 
+            // pcbItem
+            // 
+            this.pcbItem.Image = global::MiniMartSystem.Properties.Resources.cloud_upload_regular_204;
+            this.pcbItem.Location = new System.Drawing.Point(24, 395);
+            this.pcbItem.Name = "pcbItem";
+            this.pcbItem.Size = new System.Drawing.Size(437, 147);
+            this.pcbItem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcbItem.TabIndex = 15;
+            this.pcbItem.TabStop = false;
+            this.pcbItem.Click += new System.EventHandler(this.pcbItem_Click);
             // 
             // panel9
             // 
@@ -431,55 +482,6 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Add New Product";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(130)))), ((int)(((byte)(14)))));
-            this.btnCancel.FlatAppearance.BorderSize = 0;
-            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancel.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Image = global::MiniMartSystem.Properties.Resources.no_entry_regular_24;
-            this.btnCancel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancel.Location = new System.Drawing.Point(322, 550);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(0);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.btnCancel.Size = new System.Drawing.Size(139, 35);
-            this.btnCancel.TabIndex = 10;
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCancel.UseVisualStyleBackColor = false;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            // 
-            // btnSubmit
-            // 
-            this.btnSubmit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(138)))), ((int)(((byte)(122)))));
-            this.btnSubmit.FlatAppearance.BorderSize = 0;
-            this.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSubmit.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubmit.ForeColor = System.Drawing.Color.White;
-            this.btnSubmit.Image = global::MiniMartSystem.Properties.Resources.save_regular_24;
-            this.btnSubmit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSubmit.Location = new System.Drawing.Point(24, 550);
-            this.btnSubmit.Margin = new System.Windows.Forms.Padding(0);
-            this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.btnSubmit.Size = new System.Drawing.Size(139, 35);
-            this.btnSubmit.TabIndex = 9;
-            this.btnSubmit.Text = "Submit";
-            this.btnSubmit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSubmit.UseVisualStyleBackColor = false;
-            // 
-            // pcbItem
-            // 
-            this.pcbItem.Image = global::MiniMartSystem.Properties.Resources.cloud_upload_regular_204;
-            this.pcbItem.Location = new System.Drawing.Point(24, 395);
-            this.pcbItem.Name = "pcbItem";
-            this.pcbItem.Size = new System.Drawing.Size(437, 147);
-            this.pcbItem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pcbItem.TabIndex = 15;
-            this.pcbItem.TabStop = false;
             // 
             // AddProduct
             // 

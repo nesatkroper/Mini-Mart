@@ -1,4 +1,5 @@
-﻿using MiniMartSystem.Lib.Product;
+﻿using MiniMartSystem.DotNunServer;
+using MiniMartSystem.Lib.Product;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,9 +20,10 @@ namespace MiniMartSystem.Lib
             InitializeComponent();
         }
 
+        NunCMD cmd = new NunCMD();
         int num = 10;
 
-        void ButtonStyle(object sender, EventArgs e)
+        void ButtonStyle(object sender)
         {
             foreach (Control control in pnSidebar.Controls)
             {
@@ -40,48 +42,49 @@ namespace MiniMartSystem.Lib
 
         private void HomePage_FormClosing(object sender, FormClosingEventArgs e)
         {
-            
+
         }
 
         private void btnDash_Click(object sender, EventArgs e)
         {
-            ButtonStyle(btnDash, null);
+            ButtonStyle(btnDash);
         }
 
         private void btnRep_Click(object sender, EventArgs e)
         {
-            ButtonStyle(btnRep, null);
-            
+
+            ButtonStyle(btnRep);
+
         }
 
         private void btnCat_Click(object sender, EventArgs e)
         {
-            ButtonStyle(btnCat, null);
+            ButtonStyle(btnCat);
         }
 
         private void btnEmp_Click(object sender, EventArgs e)
         {
-            ButtonStyle(btnEmp, null);
+            ButtonStyle(btnEmp);
         }
 
         private void btnCus_Click(object sender, EventArgs e)
         {
-            ButtonStyle(btnCus, null);
+            ButtonStyle(btnCus);
         }
 
         private void btnQuo_Click(object sender, EventArgs e)
         {
-            ButtonStyle(btnQuo, null);
+            ButtonStyle(btnQuo);
         }
 
         private void btnExp_Click(object sender, EventArgs e)
         {
-            ButtonStyle(btnExp, null);
+            ButtonStyle(btnExp);
         }
 
         private void btnPro_Click(object sender, EventArgs e)
         {
-            ButtonStyle(btnPro, null);
+            ButtonStyle(btnPro);
 
             ProductPage page = new ProductPage();
             page.TopLevel = false;
@@ -93,12 +96,12 @@ namespace MiniMartSystem.Lib
 
         private void btnPos_Click(object sender, EventArgs e)
         {
-            ButtonStyle(btnPos, null);
+            ButtonStyle(btnPos);
         }
 
         private void btnSet_Click(object sender, EventArgs e)
         {
-            ButtonStyle(btnSet, null);
+            ButtonStyle(btnSet);
         }
 
         private void tmTime_Tick(object sender, EventArgs e)

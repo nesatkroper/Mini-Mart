@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DotNunServer\NunCMD.cs" />
+    <Compile Include="DotNunServer\NunConn.cs" />
     <Compile Include="Lib\Alert\AlertPageOK.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -194,6 +196,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cloud-upload-regular-204.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lib\NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
